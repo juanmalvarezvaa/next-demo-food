@@ -1,5 +1,7 @@
 import "./globals.css";
 
+import MainHeader from "@/components/main-header";
+
 export const metadata = {
   title: "Next Demo Food",
   description: "NextJS Demo application for food.",
@@ -30,6 +32,7 @@ export default function RootLayout({ children }) {
           </svg>
         </div>
 
+        <MainHeader />
         {children}
       </body>
     </html>
