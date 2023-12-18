@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <header className={styles.header}>
         <div className={styles.slideshow}>
-          {/* <ImageSlideshow /> */}
+          <ImageSlideshow />
         </div>
         <div>
           <div className={styles.hero}>
