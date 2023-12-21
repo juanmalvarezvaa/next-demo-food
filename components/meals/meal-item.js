@@ -8,8 +8,6 @@ export default function MealItem({ title, slug, image, summary, creator }) {
     <article className={classes.meal}>
       <header>
         <div className={classes.image}>
-          {/*// dynamic images, uploaded by users, stored in DB. */}
-          {/*We need to know images original size.. with width+height, or fill*/}
           <Image src={image} alt={title} fill />
         </div>
         <div className={classes.headerText}>
