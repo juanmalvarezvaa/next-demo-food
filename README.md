@@ -2,6 +2,8 @@ This is a demo [Next.js](https://nextjs.org/) project for Food lovers.
 
 ## Getting Started
 
+Go the root folder of the project, and run the following commands:
+
 ```bash
 npm install
 # then
