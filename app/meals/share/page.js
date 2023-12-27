@@ -8,9 +8,6 @@ import { shareMeal } from "@/lib/actions";
 import MealsFormSubmit from "@/components/meals/meals-form-submit";
 
 export default function MealsSharePage() {
-  // Hook by react to control the state of a Form. fn -> The one called by the Form. initialState -> The initial state of the Form (to handle errors).
-  // https://react.dev/reference/react-dom/hooks/useFormState
-  // const [state, formAction] = useFormState(fn, initialState);
   const [state, formAction] = useFormState(shareMeal, { message: null });
 
   return (
