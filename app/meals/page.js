@@ -5,6 +5,11 @@ import { getAllMeals } from "../../lib/meals";
 
 import styles from "./page.module.css";
 
+export const metadata = {
+  title: "All the meals",
+  description: "A list of all the meals available from our community",
+};
+
 // Since it's and async function, nextjs will wait for the promise to resolve and use Suspense to render the loading component
 async function Meals() {
   const meals = await getAllMeals();
